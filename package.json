@@ -1,0 +1,29 @@
+{
+  "name": "@cicada-design/stylelint-config",
+  "version": "0.0.4",
+  "description": "stylelint config of cicada-design.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": "https://github.com/laibin-wang/cicada-design/tree/main/packages/cicada-stylelint-config",
+  "keywords": [
+    "cicada-design",
+    "stylelint"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm",
+  "author": "wanglaibin",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^14.1.0"
+  },
+  "dependencies": {
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
